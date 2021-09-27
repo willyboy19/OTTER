@@ -56,7 +56,7 @@ GLFWwindow* window;
 // The current size of our window in pixels
 glm::ivec2 windowSize = glm::ivec2(800, 800);
 // The title of our GLFW window
-std::string windowTitle = "INFR-1350U";
+std::string windowTitle = "WilliamBouwman-100790270";
 
 void GlfwWindowResizedCallback(GLFWwindow* window, int width, int height) {
 	glViewport(0, 0, width, height);
@@ -118,9 +118,9 @@ int main() {
 	glDebugMessageCallback(GlDebugMessage, nullptr);
 
 	static const GLfloat points[] = {
-		-0.5f, -0.5f, 0.5f,
-		0.5f, -0.5f, 0.5f,
-		-0.5f, 0.5f, 0.5f
+		-0.8f, -0.5f, 0.5f,
+		0.2f, -0.5f, 0.5f,
+		-0.8f, 0.5f, 0.5f
 	};
 
 	static const GLfloat colors[] = {
